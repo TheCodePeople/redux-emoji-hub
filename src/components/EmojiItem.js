@@ -1,6 +1,6 @@
 import React from "react";
 
-export const EmojiItem = ({ emoji }) => {
+function EmojiItem({ emoji }) {
   console.log("🚀 ~ EmojiItem ~ emoji:", emoji);
   return (
     <div>
@@ -10,3 +10,5 @@ export const EmojiItem = ({ emoji }) => {
     </div>
   );
 };
+
+export default EmojiItem;
