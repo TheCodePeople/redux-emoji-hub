@@ -1,5 +1,4 @@
 import "./App.css";
-
 import { EmojiList } from "./components/EmojiList";
 
 function App() {
@@ -11,5 +10,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

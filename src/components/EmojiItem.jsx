@@ -1,6 +1,4 @@
-import React from "react";
-
-export const EmojiItem = ({ emoji }) => {
+function EmojiItem  ({ emoji }) {
   return (
     <div>
       <p>{emoji.name}</p>
@@ -10,3 +8,4 @@ export const EmojiItem = ({ emoji }) => {
     </div>
   );
 };
+export default EmojiItem
